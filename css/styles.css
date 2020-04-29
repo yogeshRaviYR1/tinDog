@@ -1,0 +1,161 @@
+#title{
+  background-color: #ff4c68;
+}
+
+
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+
+.icons{
+  color: #ef8172;
+  size: 6rem;
+  margin: 1.5rem;
+}
+
+.icons:hover{
+  color: #ff4c68;
+}
+
+#features{
+  size: 1.5rem;
+  font-family: Montserrat;
+  padding: 6rem;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+#features p{
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+  font-size: 3rem;
+  font-family: Ubuntu;
+  margin-left: 0;
+}
+
+.navbar{
+  margin-left: 0px;
+  margin-bottom: 40px;
+}
+
+/* title */
+.heading{
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 40rem;
+  margin: 6rem 3rem 6rem 0rem;
+  color: white;
+  padding-left: 0;
+}
+.title-div{
+  margin-left: 17px;
+  z-index: -1;
+
+}
+
+.mockup{
+  transform: rotate(20deg);
+  position: absolute;
+  right: 15%;
+}
+/* button */
+
+.btn{
+  margin-right: 3rem;
+  margin-bottom: 6rem;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  padding: 6rem;
+  text-align: center;
+}
+#testimonials h2,em{
+  color: white;
+  margin: 3rem;
+  padding: 30px;
+}
+
+#testimonials img{
+  border-radius: 100%;
+  width: 200px;
+}
+.carousel-indicators{
+
+}
+
+.ctrl{
+  padding-left: 0px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-image{
+  width: 200px;
+  margin: 50px;
+}
+
+#pricing{
+  text-align: center;
+  padding: 5rem;
+}
+
+#pricing p{
+  padding-bottom: 2rem;
+  color: grey;
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+#cta h3{
+  padding-bottom: 4rem;
+  color: white;
+  font-family: Montserrat;
+  font-size: 3rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 2.5rem;
+}
+
+#footer i{
+  padding: 1rem;
+}
+
+#footer p{
+  color: grey;
+}
+
+@media (max-width:1375px) {
+  .title-div{
+    text-align: center;
+    margin-left: 50px;
+  }
+  .title-div h1{
+    width: 30rem;
+  }
+  .mockup{
+    position: static;
+    transform: rotate(0deg);
+    text-align: center;
+  }
+  .mockup-container{
+
+  }
+}
